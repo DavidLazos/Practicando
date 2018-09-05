@@ -1524,3 +1524,21 @@ Finished building target: "Time0.out"
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Time0 ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/rti.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Time0" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Time0/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/rti.d_raw" --obj_directory="source"  "../source/rti.c"
+Finished building: "../source/rti.c"
+ 
+Building target: "Time0.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Time0.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Time0_linkInfo.xml" --rom_model --be32 -o "Time0.out" "./source/dabort.obj" "./source/esm.obj" "./source/gio.obj" "./source/notification.obj" "./source/pinmux.obj" "./source/rti.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Time0.out"
+ 
+
+**** Build Finished ****
