@@ -1542,3 +1542,673 @@ Finished building target: "Time0.out"
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Pwm ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/dabort.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/esm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/het.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/het.d_raw" --obj_directory="source"  "../source/het.c"
+Finished building: "../source/het.c"
+ 
+Building file: "../source/pinmux.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/notification.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_mpu.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/system.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+Building target: "Pwm.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Pwm.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Pwm_linkInfo.xml" --rom_model --be32 -o "Pwm.out" "./source/dabort.obj" "./source/esm.obj" "./source/het.obj" "./source/notification.obj" "./source/pinmux.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Pwm.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pwm ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/dabort.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/esm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/het.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/het.d_raw" --obj_directory="source"  "../source/het.c"
+Finished building: "../source/het.c"
+ 
+Building file: "../source/pinmux.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/notification.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_mpu.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+"../source/sys_main.c", line 75: warning #112-D: statement is unreachable
+Finished building: "../source/sys_main.c"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/system.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+Building target: "Pwm.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Pwm.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Pwm_linkInfo.xml" --rom_model --be32 -o "Pwm.out" "./source/dabort.obj" "./source/esm.obj" "./source/het.obj" "./source/notification.obj" "./source/pinmux.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Pwm.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pwm ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Pwm.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Pwm.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Pwm_linkInfo.xml" --rom_model --be32 -o "Pwm.out" "./source/dabort.obj" "./source/esm.obj" "./source/het.obj" "./source/notification.obj" "./source/pinmux.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Pwm.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pwm ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:65: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 12: warning #169-D: argument of type "hetRAMBASE_t *" is incompatible with parameter of type "gioPORT_t *"
+"../source/sys_main.c", line 17: warning #169-D: argument of type "int" is incompatible with parameter of type "hetSIGNAL_t *"
+"../source/sys_main.c", line 17: warning #154-D: conversion of nonzero integer to pointer
+"../source/sys_main.c", line 17: error #42: expression must have arithmetic or pointer type
+"../source/sys_main.c", line 17: error #29: expected an expression
+2 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pwm ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:65: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 16: warning #169-D: argument of type "int" is incompatible with parameter of type "hetSIGNAL_t *"
+"../source/sys_main.c", line 16: warning #154-D: conversion of nonzero integer to pointer
+"../source/sys_main.c", line 16: error #42: expression must have arithmetic or pointer type
+"../source/sys_main.c", line 16: error #29: expected an expression
+2 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pwm ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:65: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 16: warning #169-D: argument of type "int" is incompatible with parameter of type "hetSIGNAL_t *"
+"../source/sys_main.c", line 16: warning #154-D: conversion of nonzero integer to pointer
+"../source/sys_main.c", line 16: error #42: expression must have arithmetic or pointer type
+"../source/sys_main.c", line 16: error #29: expected an expression
+2 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pwm ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:65: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 16: warning #169-D: argument of type "unsigned int" is incompatible with parameter of type "hetRAMBASE_t *"
+"../source/sys_main.c", line 16: warning #154-D: conversion of nonzero integer to pointer
+"../source/sys_main.c", line 16: warning #169-D: argument of type "int" is incompatible with parameter of type "hetSIGNAL_t *"
+"../source/sys_main.c", line 16: warning #154-D: conversion of nonzero integer to pointer
+"../source/sys_main.c", line 16: error #42: expression must have arithmetic or pointer type
+"../source/sys_main.c", line 16: error #29: expected an expression
+2 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pwm ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:65: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 16: error #160: expression must be an lvalue or a function designator
+"../source/sys_main.c", line 16: warning #169-D: argument of type "int" is incompatible with parameter of type "hetSIGNAL_t *"
+"../source/sys_main.c", line 16: warning #154-D: conversion of nonzero integer to pointer
+"../source/sys_main.c", line 16: error #42: expression must have arithmetic or pointer type
+"../source/sys_main.c", line 16: error #29: expected an expression
+3 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Pwm ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/Pwm/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:65: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 16: error #76: operand of "*" must be a pointer
+"../source/sys_main.c", line 16: warning #169-D: argument of type "int" is incompatible with parameter of type "hetSIGNAL_t *"
+"../source/sys_main.c", line 16: warning #154-D: conversion of nonzero integer to pointer
+"../source/sys_main.c", line 16: error #42: expression must have arithmetic or pointer type
+"../source/sys_main.c", line 16: error #29: expected an expression
+3 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uarteando ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/dabort.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/esm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/pinmux.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/notification.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:65: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 11: error #10: "#" not expected here
+"../source/sys_main.c", line 11: error #171: expected a declaration
+"../source/sys_main.c", line 23: error #19: extra text after expected end of number
+"../source/sys_main.c", line 25: error #19: extra text after expected end of number
+"../source/sys_main.c", line 27: error #19: extra text after expected end of number
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+5 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+Building file: "../source/sys_mpu.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sci.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sci.d_raw" --obj_directory="source"  "../source/sci.c"
+Finished building: "../source/sci.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/system.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uarteando ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:65: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 25: error #20: identifier "TEXT1" is undefined
+"../source/sys_main.c", line 25: error #19: extra text after expected end of number
+"../source/sys_main.c", line 25: error #18: expected a ")"
+"../source/sys_main.c", line 25: error #29: expected an expression
+"../source/sys_main.c", line 27: error #20: identifier "TEXT2" is undefined
+"../source/sys_main.c", line 27: error #19: extra text after expected end of number
+"../source/sys_main.c", line 27: error #18: expected a ")"
+"../source/sys_main.c", line 27: error #29: expected an expression
+"../source/sys_main.c", line 29: error #20: identifier "TEXT3" is undefined
+"../source/sys_main.c", line 29: error #19: extra text after expected end of number
+"../source/sys_main.c", line 29: error #18: expected a ")"
+"../source/sys_main.c", line 29: error #29: expected an expression
+12 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uarteando ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:65: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 26: error #20: identifier "TEXT1" is undefined
+"../source/sys_main.c", line 26: error #19: extra text after expected end of number
+"../source/sys_main.c", line 26: error #18: expected a ")"
+"../source/sys_main.c", line 26: error #29: expected an expression
+"../source/sys_main.c", line 27: error #20: identifier "TEXT2" is undefined
+"../source/sys_main.c", line 27: error #19: extra text after expected end of number
+"../source/sys_main.c", line 27: error #18: expected a ")"
+"../source/sys_main.c", line 27: error #29: expected an expression
+"../source/sys_main.c", line 28: error #20: identifier "TEXT3" is undefined
+"../source/sys_main.c", line 28: error #19: extra text after expected end of number
+"../source/sys_main.c", line 28: error #18: expected a ")"
+"../source/sys_main.c", line 28: error #29: expected an expression
+12 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uarteando ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:65: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 26: error #20: identifier "TEXT1" is undefined
+"../source/sys_main.c", line 26: error #19: extra text after expected end of number
+"../source/sys_main.c", line 26: error #18: expected a ")"
+"../source/sys_main.c", line 26: error #29: expected an expression
+"../source/sys_main.c", line 27: error #20: identifier "TEXT2" is undefined
+"../source/sys_main.c", line 27: error #19: extra text after expected end of number
+"../source/sys_main.c", line 27: error #18: expected a ")"
+"../source/sys_main.c", line 27: error #29: expected an expression
+"../source/sys_main.c", line 28: error #20: identifier "TEXT3" is undefined
+"../source/sys_main.c", line 28: error #19: extra text after expected end of number
+"../source/sys_main.c", line 28: error #18: expected a ")"
+"../source/sys_main.c", line 28: error #29: expected an expression
+12 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uarteando ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "uarteando.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"uarteando.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="uarteando_linkInfo.xml" --rom_model --be32 -o "uarteando.out" "./source/dabort.obj" "./source/esm.obj" "./source/notification.obj" "./source/pinmux.obj" "./source/sci.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "uarteando.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uarteando ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'uarteando.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project uarteando ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../source/dabort.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/esm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/pinmux.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/notification.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_mpu.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sci.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sci.d_raw" --obj_directory="source"  "../source/sci.c"
+Finished building: "../source/sci.c"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/system.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando" --include_path="C:/Users/David/Desktop/Practicas/Halco/Practicando/uarteando/include" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+Building target: "uarteando.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"uarteando.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/lib" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.2.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="uarteando_linkInfo.xml" --rom_model --be32 -o "uarteando.out" "./source/dabort.obj" "./source/esm.obj" "./source/notification.obj" "./source/pinmux.obj" "./source/sci.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "uarteando.out"
+ 
+
+**** Build Finished ****
